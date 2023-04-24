@@ -1,0 +1,82 @@
+﻿  64 bit Processing .\Example1.idl
+  Example1.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oaidl.idl
+  oaidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\objidl.idl
+  objidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\unknwn.idl
+  unknwn.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.idl
+  wtypes.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypesbase.idl
+  wtypesbase.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\basetsd.h
+  basetsd.h
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\guiddef.h
+  guiddef.h
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ocidl.idl
+  ocidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oleidl.idl
+  oleidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.idl
+  servprov.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\urlmon.idl
+  urlmon.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\msxml.idl
+  msxml.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oaidl.acf
+  oaidl.acf
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ocidl.acf
+  ocidl.acf
+  pch.cpp
+  Client.cpp
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(8,5): error C2065: 'RPC_STATUS': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(8,16): error C2146: syntax error: missing ';' before identifier 'status'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(8,16): error C2065: 'status': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(9,5): error C2065: 'RPC_CSTR': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(9,14): error C2146: syntax error: missing ';' before identifier 'szStringBinding'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(9,14): error C2065: 'szStringBinding': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(9,32): error C2065: 'NULL': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(14,5): error C2065: 'status': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(15,9): error C2065: 'NULL': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(16,10): error C2065: 'RPC_CSTR': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(17,10): error C2065: 'RPC_CSTR': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(18,10): error C2065: 'RPC_CSTR': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(19,9): error C2065: 'NULL': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(20,10): error C2065: 'szStringBinding': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(14,14): error C3861: 'RpcStringBindingComposeA': identifier not found
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(22,9): error C2065: 'status': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(23,14): error C2065: 'status': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(23,9): error C3861: 'exit': identifier not found
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(28,5): error C2065: 'status': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(29,9): error C2065: 'szStringBinding': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(30,10): error C2065: 'hExample1Binding': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(28,14): error C3861: 'RpcBindingFromStringBindingA': identifier not found
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(33,9): error C2065: 'status': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(34,14): error C2065: 'status': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(34,9): error C3861: 'exit': identifier not found
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(36,5): error C2065: 'RpcTryExcept': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(41,9): error C3861: 'Output': identifier not found
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(41,59): error C2059: syntax error: ';'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(43,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(44,5): error C2059: syntax error: '{'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(44,5): error C2143: syntax error: missing ';' before '{'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(44,5): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(51,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(51,9): error C2146: syntax error: missing ';' before identifier 'status'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(54,5): error C2059: syntax error: 'if'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(58,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(59,10): error C2065: 'hExample1Binding': undeclared identifier
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(58,14): error C3861: 'RpcBindingFree': identifier not found
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(61,5): error C2059: syntax error: 'if'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(63,1): error C2059: syntax error: '}'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(63,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(69,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(69,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(74,6): error C2182: '__RPC_USER': this use of 'void' is not valid
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(74,17): error C2146: syntax error: missing ';' before identifier 'midl_user_free'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(74,32): error C2062: type 'void' unexpected
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(75,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\dangd\source\repos\Client\Client\Client.cpp(75,1): error C2447: '{': missing function header (old-style formal list?)
+  Example1_c.cpp
+  Generating Code...
